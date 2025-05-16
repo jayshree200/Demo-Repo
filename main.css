@@ -1,0 +1,52 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Card Styling */
+  .quote-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 350px;
+  }
+  
+  .quote-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .quote-card p {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #555;
+  }
+  
